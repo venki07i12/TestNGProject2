@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+  <test name="chromeTestcases">
+   <parameter name="browser" value="chrome"/>
+   <parameter name="url" value="http://demo.guru99.com/test/newtours/"/>
+  <classes>
+  <class name = "testpackage.Testclass" />
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="FirefoxTestcases">
+   <parameter name="browser" value="firefox"/>
+   <parameter name="url" value="http://demo.guru99.com/test/newtours/"/>
+  <classes>
+  <class name = "testpackage.Testclass" />
+  </classes>
+  </test> <!-- Test -->
+  
+<!--   <test name="InternetExplorerTestcases">
+   <parameter name="browser" value="ie"></parameter>
+   <parameter name="url" value="http://demo.guru99.com/test/newtours/"></parameter>
+  <classes>
+  <class name = "baselibrary.BaseLibrary" />
+  </classes>
+  </test> Test -->
+  
+  </suite> <!-- Suite -->
