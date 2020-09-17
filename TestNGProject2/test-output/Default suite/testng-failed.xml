@@ -5,10 +5,11 @@
     <classes>
       <class name="testpackage.Testclass">
         <methods>
+          <include name="register1"/>
           <include name="closebrowser"/>
+          <include name="signup"/>
           <include name="invokereports"/>
           <include name="LaunchBrowser"/>
-          <include name="women"/>
         </methods>
       </class> <!-- testpackage.Testclass -->
     </classes>

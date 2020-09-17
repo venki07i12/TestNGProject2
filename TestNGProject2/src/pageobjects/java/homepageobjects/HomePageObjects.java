@@ -20,7 +20,6 @@ public class HomePageObjects extends BaseLibrary {
 	public WebElement Register;
 	
 
-	
 	@FindBy(how=How.XPATH, using = "//input[contains(@name,'lastName')]")
 	public WebElement lastname;
 	
